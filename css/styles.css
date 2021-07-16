@@ -1,0 +1,31 @@
+body {
+  background-color: #E8F6EF;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  margin-left: 1em;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%
+}
+
+h1 {
+  font-family: Garamond, serif;
+  color: #185ADB;
+}
+
+h2 {
+  font-family: Lucida, cursive;
+  font-size: 17px;
+}
+
+h3 {
+  color: #50CB93;
+}
+
+/*********ID Selectors*****/
+#address {
+  font-style: italic;
+}
