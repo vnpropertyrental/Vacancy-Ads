@@ -1,14 +1,16 @@
 body {
   background-color: #E8F6EF;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  margin-left: 1em;
-  border-color: grey;
+  /*margin-left: 1em; */
+  border-color: #B5CDA3;
   border-width: 6px;
-  width: 5%
+  width: 10%
 }
 
 h1 {
@@ -26,6 +28,6 @@ h3 {
 }
 
 /*********ID Selectors*****/
-#address {
+#address {                      /* use single id in a webpage */
   font-style: italic;
 }
