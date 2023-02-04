@@ -11,9 +11,9 @@
 <body>
   <table cellspacing=20>
     <tr>
-      <td><img src="Image/building6.jpg" alt="Building Image"></td>
+      <td><img src="Image/building6.jpg" alt="Building Image" style="width:90%"></td>
       <td>
-        <h1>Office Space Available</h1>
+        <h1>Office Space Available for Lease</h1>
         <h2>VN Property Rental LLC</h2>
         <h2>College Avenue Professional Building</h2>
         <h3 id="address">4527-4541 College Ave, San Diego, CA 92115</h3>
@@ -50,8 +50,8 @@
     </tr>
   </table>
 
-  <hr>
-  
+  <hr class="h1">
+
   <h3>Highlights</h3>
   <ul>
     <li>Excellent location for a medical, dental, chiropractic, therapeutic practice or other commercial office needs</li>
@@ -59,42 +59,153 @@
     <li>Abundant on-site parking</li>
     <li>Short distance to San Diego State University and Hospital</li>
   </ul>
-  <hr>
+  <hr class="h1">
 
   <h3>Description</h3>
   <p>Excellent location for opening a new or existing business. The building has tremendous visibility and is located just a few blocks from San Diego State University and amidst a large amount of retail and residential population. The building was
     recently remodeled with dual pane windows and new outside paint. There are multiple private entrances for easy access. Parking at this location is easy for patients, customers, and employees. Tenants have 24-hour access. </p>
   <br>
-  <hr>
+  <hr class="h1">
 
   <h3>Office Suites Available</h3>
+  <div class="row">
 
-  <h4>Suite 4539 College Ave</h4>
-  <table cellspacing="10">
-    <tr>
-      <td>Space Available:</td>
-      <td>1263 SF</td>
-    </tr>
-    <tr>
-      <td>Rental Rate:</td>
-      <td>$2.10/SF/Month</td>
-    </tr>
-    <tr>
-      <td>Space Type:</td>
-      <td>Office</td>
-    </tr>
-    <tr>
-      <td>Lease Type:</td>
-      <td>Modified Gross</td>
-    </tr>
-    <tr>
-      <td>Date Available:</td>
-      <td>Now</td>
-    </tr>
-  </table>
-  <p><strong>Description:</strong> A former therapy office is ready for moving in. All set up are in place for quick operation as is or convert to other commercial needs. The suite includes exam rooms, private offices, reception desk, waiting room, storage rooms, and private restrooms. The suite has been remodeled recently with laminate/vinyl flooring, new paint; reset lights, remodeled bathroom, new dual pane windows<br></p>
-    <br>
-  <hr>
+    <div class="column">
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 7</div>
+        <img src="Image/4539-College.jpg" style="width:100%">
+        <div class="text">Waiting Room</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 7</div>
+        <img src="Image/4539-College2.jpg" style="width:100%">
+        <div class="text">Waiting Room</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <img src="Image/4539-College3.jpg" style="width:100%">
+        <div class="text">Receiption Desk</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="Image/4539-College4.jpg" style="width:100%">
+        <div class="text">Therapy Room</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="Image/4539-College5.jpg" style="width:100%">
+        <div class="text">Hallway</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="Image/4539-College6.jpg" style="width:100%">
+        <div class="text">Hallway</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="Image/4539-College07.jpg" style="width:100%">
+        <div class="text">Exam Room</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+
+    </div>
+
+    <div class="column">
+
+      <p class="p3">
+      Detail information
+      </p>
+
+      <p class="p1">
+      Suite Available: 4539 College Ave
+      <br><br>
+      Space Available: 1263 SF
+      <br><br>
+      Space: Office Suite
+      <br><br>
+      Lease Type: Modified Gross
+      <br><br>
+      Date Available: Now
+      </p>
+      <br>
+      <br>
+
+      <hr class="h2">
+
+      <p class="p2">
+        <br>
+      <strong>Description:</strong>   A former medical/therapy/dental suite is ready for moving in. All set up are in place for quick operation as is or convert to other commercial needs. The suite has 5 exam rooms/private offices, reception area/desk, group therapy/social area, waiting room, conference room,
+          storage rooms, and private restroom.
+          <br>
+          <br>The suite has been remodeled recently with new paint, reset lights, new dual pane windows, new blinds and much more.<br>
+        <br>
+      <hr class="h2">
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+
+
+
+  <hr class="h1">
   <a href="Contact.html"><em><b>Contact Information</b></em></a>
 </body>
 
